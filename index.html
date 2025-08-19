@@ -1,16 +1,15 @@
-        <html>
-            <head>
-                <script src="squeak.js"></script>
-<script type="module">
-    import { SqueakJS } from 'https://raw.githubusercontent.com/codefrau/SqueakJS/refs/heads/main/squeak.js';
+<html>
+<head>
+    <script type="module">
+        import { SqueakJS } from 'https://raw.githubusercontent.com/codefrau/SqueakJS/refs/heads/main/squeak.js';
 
-    window.onload = function() {
-        const sqCanvas = document.getElementById('sqCanvas');
-        SqueakJS.runSqueak("CatBlokMod.image", sqCanvas, {});
-    };
-</script>
-            </head>
-            <body>
-                <canvas id="sqCanvas"></canvas>
-            </body>
-        </html>
+        window.onload = function() {
+            const sqCanvas = document.getElementById('sqCanvas');
+            SqueakJS.runSqueak("CatBlokMod.image", sqCanvas, {});
+        };
+    </script>
+</head>
+<body>
+    <canvas id="sqCanvas"></canvas>
+</body>
+</html>
